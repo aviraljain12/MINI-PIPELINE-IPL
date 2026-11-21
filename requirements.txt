@@ -1,0 +1,17 @@
+# requirements.txt
+# Install with: pip install -r requirements.txt
+#
+# Actual installed versions on this machine (Python 3.14):
+#   pandas              3.0.5   (already present)
+#   SQLAlchemy          2.1.9   (2.0.x not compatible with Python 3.14)
+#   streamlit           1.62.0  (already present)
+#
+# SQLAlchemy 2.1+ is required for Python 3.14 compatibility.
+
+pandas>=2.2.0
+SQLAlchemy>=2.1.0
+mysql-connector-python==8.4.0
+pymysql>=1.1.0
+python-dotenv==1.0.1
+streamlit>=1.35.0
+

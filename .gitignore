@@ -1,0 +1,23 @@
+# .gitignore — files that must NOT be pushed to GitHub
+
+# Secret credentials
+.env
+
+# Raw and processed data files (too large for git; download from Kaggle instead)
+data/raw/
+data/processed/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folders (common names)
+venv/
+.venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
